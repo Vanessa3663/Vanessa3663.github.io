@@ -1,3 +1,72 @@
 body {
-    color:red;
+    color: #f4acb7;
+    background-color: #ffe5d9;
+    
+}
+.titulo {
+    background-color: #9d8189;
+    padding: 30px 0;
+    opacity: 1;
+}
+h1 {
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.03em 0.03em #ffcad4;
+    font-family: "Style Script", cursive;
+    
+}
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0.03em 0.03em #9d8189;
+}
+.titulodois {
+    text-align: center;
+    color: #9d8189;
+    font-family: "Bebas Neue", sans-serif;
+    opacity: 1;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    color: #9d8189;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0.03em 0.03em #f4acb7;
+}
+P {
+    color: #9d8189;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+
+}
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0.03em 0.03em #f4acb7;
+}
+
+a {
+    color: #9d8189;
+}
+
+.inline-block {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.fundo-rosa {
+    background-color: #f4acb793;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.projetos {
+    font-weight: bold;
 }
