@@ -1,0 +1,85 @@
+body {
+    font-family: "Sora", sans-serif;
+}
+
+button {
+    font-family: "Sora", sans-serif;
+}
+
+.menu-navegacao {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    height: 100px;
+    justify-content: center;
+    gap: 25px;
+    font-size: 15px;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.bloco-dois {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.texto-principal {
+    margin: 60px 60px 0px 60px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.subtexto {
+    text-align: left;
+    margin: 60px 80px 60px 80px;
+    font-size: 20px;
+    line-height: 20px;
+    opacity: 0.5;
+}
+
+.inicio{
+    width: 50%;
+    margin: 60px 80px 60px 80px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.img-inicio {
+    height: 425px;
+    margin-top: 60px;
+}
+
+.botao-menu-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
