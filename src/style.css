@@ -9,13 +9,13 @@ button {
 .menu-navegacao {
     display: flex;
     align-items: center;
-   
+
 }
 
 .item-menu {
     display: flex;
     align-items: center;
-   
+
     height: 100px;
     justify-content: center;
     gap: 25px;
@@ -47,7 +47,7 @@ a {
 }
 
 .bloco-dois {
-  
+
     display: flex;
 }
 
@@ -64,9 +64,9 @@ a {
     opacity: 0.5;
 }
 
-.inicio{
+.inicio {
     width: 50%;
-   
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@ a {
     margin-top: 60px;
 }
 
-.botao-menu-principal{
+.botao-menu-principal {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -95,7 +95,7 @@ a {
     cursor: pointer;
 }
 
-.botao-menu-principal:hover{
+.botao-menu-principal:hover {
     background-color: #1FAB68;
 }
 
@@ -110,6 +110,10 @@ a {
     padding: 15px;
     border: 2px black solid;
     border-radius: 5px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .botao-rede-social:hover {
@@ -118,7 +122,7 @@ a {
 }
 
 .texto-verde {
-    color: #1FAB68;   
+    color: #1FAB68;
 }
 
 .habilidades {
@@ -127,3 +131,33 @@ a {
     text-align: center;
 }
 
+.lista-habilidades {
+    display: flex;
+    gap: 10px;
+    margin-top: 64px;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.habilidade {
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 35px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    min-width: 186px;
+    font-size: 60px;
+}
+
+.habilidade p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.habilidade:hover {
+    color: white;
+    background-color: black;
+}
