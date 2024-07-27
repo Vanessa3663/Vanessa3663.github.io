@@ -125,6 +125,10 @@ a {
     color: #1FAB68;
 }
 
+.bloco-tres {
+    padding: 50px;
+}
+
 .habilidades {
     margin-top: 40px;
     font-size: 40px;
@@ -152,7 +156,7 @@ a {
     font-size: 60px;
 }
 
-.habilidade p {
+.habilidade span {
     font-size: 1rem;
     font-weight: bold;
 }
@@ -160,4 +164,87 @@ a {
 .habilidade:hover {
     color: white;
     background-color: black;
+}
+
+.experiencia {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.bloco-quatro {
+    background-color: black;
+    padding: 40px;
+}
+
+.experiencias {
+    color: white;
+    font-size: 20px;
+    border: 2px solid #27272A;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.experiencias:hover {
+    background-color: #27272A;
+
+}
+
+.texto-exp {
+    color: rgba(255, 255, 255, 0.719);
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.exp {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.bloco-cinco {
+    display: flex;
+    padding: 50px;
+
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 70px 0px 70px;
+}
+
+.bloco-cinco h2 {
+    font-size: 48px;
+}
+
+.img-dois {
+    width: 525.42px;
+    height: 572px;
+    padding-left: 40px;
+}
+
+.bloco-cinco p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #71717A;
+}
+
+.bloco-seis {
+    display: flex;
+    
+}
+
+.bloco-seis p {
+    display: flex;
+    flex-direction: column;
 }
